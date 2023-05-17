@@ -1,0 +1,1039 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+/* comon */
+@font-face {
+    font-family: 'GraphikLCG';
+    src: url(../fonts/GraphikLCG-Regular.ttf),
+        url(../fonts/GraphikLCG-Regular.woff),
+        url(../fonts/GraphikLCG-Regular.woff2)
+    ;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+/* header */
+.header .menu-mobile {
+    display: none;
+}
+
+.header {
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.header .menu-desktop {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.header .left {
+    display: flex;
+}
+
+.header .image {
+    margin: 40px 0 35px 50px;
+}
+
+.header .menu-desktop p {
+    margin: 45px 0 0 40px;
+}
+
+.header .menu-link {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.header .btn {
+    box-sizing: border-box;
+    width: 120px;
+    height: 45px;
+    border: 1px solid #00000080;
+    background-color: #FFFFFF;
+}
+
+.header .btn:hover {
+    background: #C9E8F2;
+}
+
+.header .text {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.header .text:hover {
+    color: #FF6336;
+}
+
+.header .btn1 {
+    width: 120px;
+    height: 45px;
+    background-color: #FF6336;
+    border: none;
+    margin: 30px 50px 0 10px;
+}
+
+.header .btn1:hover {
+    background: #C9E8F2;
+}
+
+.header .text1 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header .text1:hover {
+    color: #FF6336;
+}
+
+/* accelerate */
+.accelerate {
+    background-color: #FFFFFF;
+}
+
+.accelerate .block {
+    display: flex;
+}
+
+.accelerate .title {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    color: #000000;
+    margin: 130px 0 30px 75px;
+}
+
+.accelerate .text {
+    width: 70%;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    margin: 0 0 30px 75px;
+}
+
+.accelerate .btn {
+    width: 160px;
+    height: 60px;
+    background-color: #FF6336;
+    border: none;
+    margin: 0 10px 25px 75px;
+}
+
+.accelerate .btn:hover {
+    background-color: #C9E8F2;
+} 
+
+.accelerate .text1 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.accelerate .text1:hover {
+    color: #FF6336;
+}
+
+.accelerate .btn1 {
+    box-sizing: border-box;
+    width: 160px;
+    height: 60px;
+    border: 1px solid #00000080;
+    background-color: #FFFFFF;
+} 
+
+.accelerate .btn1:hover {
+    background-color:  #C9E8F2;
+}
+
+.accelerate .text2 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.accelerate .text2:hover {
+    color: #FF6336;
+}
+
+.accelerate .text3 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0 0 0 75px;
+}
+
+.accelerate .right {
+    margin: 150px 70px 170px 0;
+}
+
+/* preferred */
+.preferred {
+    background-color: #FF9C7D;
+}
+
+.preferred .text {
+    display: flex;
+    justify-content: center;
+}
+
+.preferred .icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.preferred .title {
+    width: 45%;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin: 100px 0 80px 0;
+}
+
+.preferred .image,
+.preferred .image1,
+.preferred .image2,
+.preferred .image3,
+.preferred .image4,
+.preferred .image5 {
+    margin-bottom: 80px;
+}
+
+
+/* control */
+.control {
+    background-color: #FFFFFF;
+}
+
+.control .block {
+    display: flex;
+}
+
+.control .title {
+    width: 65%;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin: 240px 0 30px 75px;
+}
+
+.control .text {
+    width: 60%;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0 0 30px 75px;
+}
+
+.control .text1 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.control .text2 {
+    text-decoration: none;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 75px;
+}
+
+.control .right {
+    margin-top: 90px;
+    margin-right: 75px;
+}
+
+/*shorten */
+.shorten {
+    background-color: #FFFFFF;
+}
+
+.shorten .block {
+    display: flex;
+}
+
+.shorten .left {
+    margin: 250px 138px 0 75px;
+}
+
+.shorten .title {
+    width: 60%;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin-top: 400px;
+    margin-bottom: 30px;
+}
+
+.shorten .text {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-right: 145px;
+    margin-bottom: 36px;
+}
+
+.shorten .text1 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.shorten .text2 {
+    text-decoration: none;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+/* ensure */
+.ensure {
+    background-color: #FFFFFF;
+}
+
+.ensure .block {
+    display: flex;
+}
+
+.ensure .title {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin: 411px 0 30px 75px;
+}
+
+.ensure .text {
+    width: 65%;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0 0 35px 75px;
+}
+
+.ensure .text1 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.ensure .text2 {
+    text-decoration: none;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 75px;
+}
+
+.ensure .right {
+    margin-top: 250px;
+    margin-right: 75px;
+}
+
+/* work */
+.work {
+    background-color: #FFFFFF;
+}
+
+.work .block {
+    display: flex;
+}
+
+.work .title {
+    width: 65%;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin-top: 373px;
+    margin-bottom: 33px;
+}
+
+.work .text {
+    width: 90%;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 33px;
+    margin-bottom: 27px;
+}
+
+.work .text1 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.work .text2 {
+    text-decoration: none;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.work .left {
+    margin: 250px 138px 150px 75px;
+}
+
+/* localize */
+.localize {
+    background-color: #FFF8E4;
+}
+
+.localize .block .block1 {
+    display: flex;
+    justify-content: center;
+}
+
+.localize .block .block2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.localize .card {
+    text-align: center;
+}
+
+.localize .block .block1 .title {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin-top: 120px;
+    margin-bottom: 79px;
+}
+
+.localize .card .title {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.localize .card .text {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.localize .card {
+    margin-left: 130px;
+}
+
+.localize .card .image {
+    margin-bottom: 26px;
+}
+
+.localize .card .title {
+margin-bottom: 20px;
+}
+
+.localize .card .text {
+    margin-bottom: 75px;
+    
+}
+
+.localize .card .text1 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+/* boost */
+.boost {
+    background-color: #FFFFFF;
+}
+
+.boost .block1 {
+    display: flex;
+}
+
+.boost .block2 {
+    display: flex;
+}
+
+.boost .title {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin-top: 150px;
+    margin-left: 75px; 
+}
+
+.boost .card .image1 {
+   margin: 75px 0 49px 75px;
+}
+
+.boost .card .image2 {
+    margin: 92px 0 67px 31px;
+}
+
+.boost .card .image3 {
+    margin: 84px 0 58px 31px;
+}
+
+.boost .card {
+    margin-bottom: 180px;
+}
+
+.boost .title1 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-left: 75px;
+    margin-bottom: 34px;
+}
+
+.boost .text1 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 75px;
+    margin-bottom: 25px;
+}
+
+.boost .text2 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 75px;
+}
+
+.boost .title2 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-left: 31px;
+    margin-bottom: 34px;
+}
+
+.boost .text3 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 31px;
+    margin-bottom: 25px;
+}
+
+.boost .text4 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 31px;
+}
+
+.boost .title3 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-left: 31px;
+    margin-bottom: 34px;
+}
+
+.boost .text5 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 31px;
+    margin-bottom: 25px;
+}
+
+.boost .text6 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 31px;
+}
+
+.boost .text3 .text {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+/* revolut */
+.revolut {
+    background-color:#C9E8F2 ;
+}
+
+.revolut .block {
+    display: flex;
+}
+
+.revolut .text {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin: 63px 59px 23px 75px;
+}
+
+.revolut .text1 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin-left: 75px;
+    margin-bottom: 10px;
+}
+
+.revolut .left .image {
+    margin-left: 75px;
+}
+
+.revolut .right .image {
+    margin-top: 63px;
+    margin-bottom: 105px;
+}
+
+/* most */
+.most {
+    background-color: #DABC98;
+}
+
+.most .block {
+    display: flex;
+}
+
+.most .left {
+    display: flex;
+}
+
+.most .right {
+    display: flex;
+}
+
+.most .image {
+    margin: 89px 67px 88px 54px;
+}
+
+.most .title {
+    width: 40%;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+    margin-top: 100px;
+    margin-right: 124px;
+}
+
+.most .image2 {
+    margin: 0 70px 0 71px;
+}
+
+/* integrate */
+.integrate {
+    background-color: #FFFFFF;
+}
+
+.integrate .block {
+    text-align: center;
+    margin-left: 75px;
+}
+
+.integrate .block1 {
+    display: flex;
+    justify-content: center;
+}
+
+.integrate .title {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    color: #000000;
+    margin-top: 165px;
+}
+
+.integrate .text {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.integrate .btn {
+    width: 193px;
+    height: 60px;
+    background: #FF6336;
+    margin-top: 32px;
+    margin-bottom: 162px;
+    border: none;
+}
+
+.integrate .btn:hover {
+    background: #C9E8F2;
+}
+
+.integrate .btn .text {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.integrate .btn .text:hover {
+    color: #FF6336;
+}
+
+/* localization */
+.localization {
+    background-color: #FF9C7D;
+}
+
+.localization .block {
+    text-align: center;
+}
+
+.localization .block1 {
+    display: flex;
+    justify-content: center;
+}
+
+.localization .title {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    color: #000000;
+    padding-top: 116px;
+}
+
+.localization .text {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 29px;
+    margin-bottom: 59px;
+}
+
+.localization .btn {
+    width: 160px;
+    height: 60px;
+    background-color: #000000;
+    margin-bottom: 161px;
+    border: none;
+}
+
+.localization .btn .text {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-decoration: none;
+} 
+
+.localization .btn .text:hover {
+    color: #000000;
+}
+
+.localization .btn:hover {
+    background-color: #FF6336
+}
+
+/* footer */
+.footer {
+    background-color: #EEEEEE;
+}
+
+.footer .block {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer .block .left {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.footer .block .left .image1 {
+    width: 80px;
+    margin-left: 75px;
+    margin-bottom: 11px;
+}
+
+.footer .block .left .text {
+    width: 300px;
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 75px;
+    margin-bottom: 15px;
+}
+
+.footer .block1 .left1 {
+    display: flex;
+}
+
+.footer .block1 .right1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .block1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .line {
+    margin-left: 70px;
+    margin-bottom: 52px;
+}
+
+.footer .block1 .left1 .text {
+    width: 330px;
+}
+
+.footer .block .left .title {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+    margin: 92px 0 28px 75px;
+}
+
+.footer .block .left .image {
+    margin-left: 75px;
+    margin-bottom: 38px;
+}
+
+.footer .block .left .text1 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 75px;
+    margin-bottom: 95px; 
+}
+
+.footer .block .right .card {
+    margin-top: 97px;
+}
+
+.footer .block .right .card .title1,
+.footer .block .right .card .title2,
+.footer .block .right .card .title3,
+.footer .block .right .card .title4 {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 21px;
+} 
+
+.footer .block .right .card .text {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer .block .right .card .title4 {
+    margin-right: 208px;
+}
+
+.footer .block .right .card .title3 {
+    margin-right: 124px;
+}
+
+.footer .block .right .card .title2 {
+    margin-right: 127px;
+}
+
+.footer .block .right .card .title1 {
+    margin-right: 142px;
+}
+
+.footer .block .right .card li {
+    margin-bottom: 5px;
+}
+
+
+.footer .block1 .left1 .image {
+    margin: 0 14px 52px 75px;
+}
+
+.footer .block1 .left1 .text {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.footer .block1 .right1 .text {
+    font-family: 'GraphikLCG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-right: 151px;
+}
